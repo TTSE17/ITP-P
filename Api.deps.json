@@ -10,7 +10,6 @@
         "dependencies": {
           "Application": "1.0.0",
           "Asp.Versioning.Mvc.ApiExplorer": "8.1.1",
-          "Contracts": "1.0.0",
           "Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "9.0.11",
           "Microsoft.EntityFrameworkCore.Design": "9.0.11",
@@ -1196,14 +1195,6 @@
           }
         }
       },
-      "Contracts/1.0.0": {
-        "runtime": {
-          "Contracts.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "Domain/1.0.0": {
         "dependencies": {
           "MediatR": "13.0.0"
@@ -2075,11 +2066,6 @@
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
     "Application/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Contracts/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
